@@ -1,0 +1,45 @@
+{
+  "Entities": {
+    "TestClientSettlementsCkoSas": {
+      "EntityId": "ent_nyfaesu2fhzuhnop6n5rrjuire"
+    }
+  },
+  "Apis": {
+    "CurrencyAccountsApi": {
+      "Name": "currency-accounts-api-key",
+      "Uri": "http://merlin-alb.qa.internal",
+      "ApiKey": ""
+    },
+    "BalancesApi": {
+      "Name": "balances-api-key",
+      "Uri": "http://finlab-alb.qa.internal",
+      "ApiKey": ""
+    },
+    "GatekeeperApi": {
+      "Name": "gatekeeper-api-key",
+      "Uri": "http://fxp-gatekeeper.qa.internal",
+      "ApiKey": ""
+    },
+    "EntitiesApi": {
+      "Name": "entities-api-key",
+      "Uri": "https://entities.cko-qa.ckotech.co",
+      "ApiKey": ""
+    },
+    "PricingProfileApi": {
+      "Name": "pricing-profile-api-key",
+      "Uri": "http://findev-alb.qa.internal",
+      "ApiKey": ""
+    },
+    "VaultApi": {
+      "Name": "vault-api-key",
+      "Uri": "https://gwc.ckotech.co",
+      "ApiKey": "",
+      "VaultAccountId": "vact_rkrbwdzas3lu3b4fjbnmi7wwbi"
+    },
+    "AccessApi": {
+      "Name": "access-api-key",
+      "Uri": "https://access-qa.ckotech.co"
+    }
+  },
+  "Messaging": {}
+}

@@ -1,0 +1,46 @@
+{
+    "SecretsManager": {
+        "ServiceUrl": "http://localhost:4569",
+        "AuthenticationRegion": "eu-north-1"
+    },
+    "Entities": {
+        "TestClientSettlementsCkoSas": {
+            "EntityId": "ent_liocwos209ejxsmjw12snxaqx1"
+        }
+    },
+    "Apis": {
+        "CurrencyAccountsApi": {
+            "Uri": "http://localhost:8200",
+            "ApiKey": "ApiKey123"
+        },
+        "BalancesApi": {
+            "Uri": "http://localhost:8200",
+            "ApiKey": "ApiKey123"
+        },
+        "GatekeeperApi": {
+            "Uri": "http://localhost:8100",
+            "ApiKey": "local_fxp_6T8bljLjvECRT976ba5Edw"
+        },
+        "EntitiesApi": {
+            "Uri": "http://localhost:8200",
+            "ApiKey": "ApiKey123"
+        },
+        "PricingProfileApi": {
+            "Uri": "http://localhost:8200",
+            "ApiKey": "ApiKey123"
+        },
+        "VaultApi": {
+            "Uri": "http://localhost:8200",
+            "ApiKey": "ApiKey 9573e200-5f6e-4ec7-a051-4eb3e525d1e7"
+        },
+        "ClientSettlementsApi": {
+            "Uri": "http://localhost:8300",
+            "ApiKey": "ApiKey local_fxp_6T8bljLjvECRT976ba5Edw"
+        },
+        "AccessApi": {
+            "Name": "access-api-key",
+            "Uri": "https://access-qa.ckotech.co"
+        }
+    },
+    "Messaging": {}
+}
